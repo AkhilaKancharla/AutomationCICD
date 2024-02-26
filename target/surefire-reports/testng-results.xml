@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-03T14:44:55 IST" name="Suite" finished-at="2024-02-03T14:45:26 IST" duration-ms="30558">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" name="LoginErrorValidation" class="rahulshettyacademy.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" name="submitOrder" class="rahulshettyacademy.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-02-03T14:44:55 IST" name="Error Validations Test" finished-at="2024-02-03T14:45:19 IST" duration-ms="23822">
+      <class name="rahulshettyacademy.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:44:55 IST" name="launchApplication" finished-at="2024-02-03T14:45:02 IST" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:45:02 IST" name="LoginErrorValidation" finished-at="2024-02-03T14:45:02 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:45:02 IST" name="tearDown" finished-at="2024-02-03T14:45:03 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:45:03 IST" name="launchApplication" finished-at="2024-02-03T14:45:06 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:45:06 IST" name="productErrorValidation" finished-at="2024-02-03T14:45:19 IST" duration-ms="13558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.ErrorValidationsTest@782859e]" started-at="2024-02-03T14:45:19 IST" name="tearDown" finished-at="2024-02-03T14:45:19 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-02-03T14:44:55 IST" name="Submit Order Test" finished-at="2024-02-03T14:45:26 IST" duration-ms="30558">
+      <class name="rahulshettyacademy.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:44:56 IST" name="launchApplication" finished-at="2024-02-03T14:45:02 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:02 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-03T14:45:17 IST" duration-ms="14684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Akhila@1997, product=ZARA COAT 3, email=automate111@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:17 IST" name="tearDown" finished-at="2024-02-03T14:45:17 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:17 IST" name="launchApplication" finished-at="2024-02-03T14:45:19 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:19 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-03T14:45:22 IST" duration-ms="3116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Akhila@1997, product=ADIDAS ORIGINAL, email=automate222@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:22 IST" name="tearDown" finished-at="2024-02-03T14:45:22 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:22 IST" name="launchApplication" finished-at="2024-02-03T14:45:25 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryFirst()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:25 IST" name="orderHistoryFirst" finished-at="2024-02-03T14:45:26 IST" depends-on-methods="rahulshettyacademy.SubmitOrderTest.submitOrder" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryFirst -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.SubmitOrderTest@7c37508a]" started-at="2024-02-03T14:45:26 IST" name="tearDown" finished-at="2024-02-03T14:45:26 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
